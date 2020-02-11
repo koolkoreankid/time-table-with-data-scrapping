@@ -65,13 +65,3 @@ class di:
     def __repr__(self):
         return "personal({}, {})".format(self.one, self.two)
 
-hey = ["oneee", "twooo"]
-k = di(hey[0], hey[1])
-print(k)
-asd = []
-j = ["he", "here"]
-asd.append(j)
-print(False not False)
-
-for i in range(4):
-    print(i)
